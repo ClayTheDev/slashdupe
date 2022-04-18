@@ -6,7 +6,7 @@ import xyz.petmydog.slashdupe.command.Command;
 
 public class PVP extends Command {
     public PVP() {
-        super("pvp", "Teleports player to PVP area.", "faction-public2");
+        super("pv", "Teleports player to PVP area.", "faction-public2");
     }
 
     @Override

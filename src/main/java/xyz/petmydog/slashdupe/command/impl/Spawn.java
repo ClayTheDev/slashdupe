@@ -6,7 +6,7 @@ import xyz.petmydog.slashdupe.command.Command;
 
 public class Spawn extends Command {
     public Spawn() {
-        super("spawn", "TPs You to spawn.", "faction-public2");
+        super("sp", "TPs You to spawn.", "faction-public2");
     }
 
     @Override

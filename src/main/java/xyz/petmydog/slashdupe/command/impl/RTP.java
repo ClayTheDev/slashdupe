@@ -6,7 +6,7 @@ import xyz.petmydog.slashdupe.command.Command;
 
 public class RTP extends Command {
     public RTP() {
-        super("rtp", "Random Teleport.", "faction-public2");
+        super("rt", "Random Teleport.", "faction-public2");
     }
 
     @Override
