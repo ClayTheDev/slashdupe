@@ -4,8 +4,8 @@ import net.minecraft.network.MessageType;
 import net.minecraft.text.LiteralText;
 import xyz.petmydog.slashdupe.command.Command;
 
-public class FactionTruce extends Command {
-    public FactionTruce() {
+public class RTP extends Command {
+    public RTP() {
         super("rtp", "Random Teleport.", "faction-public2");
     }
 

@@ -4,8 +4,8 @@ import net.minecraft.network.MessageType;
 import net.minecraft.text.LiteralText;
 import xyz.petmydog.slashdupe.command.Command;
 
-public class FactionTruce extends Command {
-    public FactionTruce() {
+public class Spawn extends Command {
+    public Spawn() {
         super("spawn", "TPs You to spawn.", "faction-public2");
     }
 

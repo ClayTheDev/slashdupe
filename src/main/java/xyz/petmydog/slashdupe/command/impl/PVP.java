@@ -4,8 +4,8 @@ import net.minecraft.network.MessageType;
 import net.minecraft.text.LiteralText;
 import xyz.petmydog.slashdupe.command.Command;
 
-public class FactionTruce extends Command {
-    public FactionTruce() {
+public class PVP extends Command {
+    public PVP() {
         super("pvp", "Teleports player to PVP area.", "faction-public2");
     }
 
