@@ -19,6 +19,9 @@ public class CommandManager {
         this.modules.add(new Join());
         this.modules.add(new FactionChat());
         this.modules.add(new ChatColors());
+        this.modules.add(new RTP());
+        this.modules.add(new PVP());
+        this.modules.add(new Spawn());
     }
 
     public void callCommand(String input) {
