@@ -1,0 +1,22 @@
+package xyz.petmydog.slashdupe.command.impl;
+
+import net.minecraft.network.MessageType;
+import net.minecraft.text.LiteralText;
+import xyz.petmydog.slashdupe.command.Command;
+
+public class FactionTruce extends Command {
+    public FactionTruce() {
+        super("spawn", "TPs You to spawn.", "faction-public2");
+    }
+
+    @Override
+    public void onCommand(String alias, String[] args) throws Exception {
+        mc.inGameHud.getChatHud().addToMessageHistory("-sp");
+        try {
+            mc.player.sendChatMessage("/spawn");
+        }
+        catch (NumberFormatException ex){
+            ex.printStackTrace();
+        }
+    }
+}
